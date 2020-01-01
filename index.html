@@ -1,0 +1,191 @@
+<!DOCTYPE HTML>
+<head>
+    <title>Twitchcons</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="author" content="Vysum Team">
+    <meta name="description" content="A simple FontAwesome like kit for Twitch Badges, Bits and More.">
+    <meta name="theme-color" content="#9146ff">
+    <!-- OpenGraph Tags -->
+    <meta property="og:title" content="Twitchcons">
+    <meta property="og:description" content="A simple FontAwesome like kit for Twitch Badges, Bits and More.">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://vysum.github.io/twitchcons">
+    <!-- Asset Tags -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/twitchcons.css">
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+</head>
+<body class="text-center bg-dark text-light">
+    <h1 class="text-primary display-2">Twitchcons</h1>
+    <p class="lead">A simple FontAwesome like kit for Twitch Badges, Bits and More.</p>
+    <div class="container text-left">
+        <p>
+            Twitchcons was a library originally used by <b>TwitchOS</b>, a failed concept for bringing
+            streaming to it's own basic operating system that was more of an extension of Windows.
+            We planned on working on it's concept but after some work and not wanting to step on the toes
+            of Twitch Interactive, we cancelled the project and started working on a solo library version
+            of the icon system we used within the OS.
+        </p>
+        <p>Below are some examples setup and basic usage.</p>
+    </div>
+    <div class="container text-left">
+        <h2 id="setup" class="text-primary">Setup</h2>
+        <p>
+            Setting up twitchcons in any environment is simple with the automatic update system to send
+            updates as we make changes. Simply apply our CSS to your project via a link tag to have access
+            to our complete system.
+        </p>
+        <p>
+            Example:
+            <code>&lt;link rel="stylesheet" href="https://vysum.github.io/twitchcons/css/twitchcons.min.css"&gt;</code>
+        </p>
+        <ul>
+            <li><a href="/css/twitchcons.css">Uncompressed CDN</a></li>
+            <li><a href="/css/twitchcons.min.css">Compressed CDN</a></li>
+        </ul>
+    </div>
+    <div class="container text-left">
+        <h2 id="badges" class="text-primary">Main Chat Badges</h2>
+        <table class="table table-dark">
+            <tr>
+                <th>Icon</th>
+                <th>Name</th>
+                <th>Code</th>
+            </tr>
+            <tr>
+                <td><i class="tc badge-staff tc-lg"></i></td>
+                <td>Twitch Staff</td>
+                <td><code>&lt;i class="tc badge-staff"&gt;&lt;/i&gt;</code></td>
+            </tr>
+            <tr>
+                <td><i class="tc badge-admin tc-lg"></i></td>
+                <td>Twitch Admin</td>
+                <td><code>&lt;i class="tc badge-admin"&gt;&lt;/i&gt;</code></td>
+            </tr>
+            <tr>
+                <td><i class="tc badge-caster tc-lg"></i></td>
+                <td>Broadcaster</td>
+                <td><code>&lt;i class="tc badge-caster"&gt;&lt;/i&gt;</code></td>
+            </tr>
+            <tr>
+                <td><i class="tc badge-mod tc-lg"></i></td>
+                <td>Chat Moderator</td>
+                <td><code>&lt;i class="tc badge-mod"&gt;&lt;/i&gt;</code></td>
+            </tr>
+            <tr>
+                <td><i class="tc badge-verified tc-lg"></i></td>
+                <td>Twitch Verified</td>
+                <td><code>&lt;i class="tc badge-verified"&gt;&lt;/i&gt;</code></td>
+            </tr>
+            <tr>
+                <td><i class="tc badge-vip tc-lg"></i></td>
+                <td>VIP</td>
+                <td><code>&lt;i class="tc badge-vip"&gt;&lt;/i&gt;</code></td>
+            </tr>
+            <tr>
+                <td><i class="tc badge-sub tc-lg"></i></td>
+                <td>Subscriber</td>
+                <td><code>&lt;i class="tc badge-sub"&gt;&lt;/i&gt;</code></td>
+            </tr>
+            <tr>
+                <td><i class="tc badge-prime tc-lg"></i></td>
+                <td>Twitch Prime</td>
+                <td><code>&lt;i class="tc badge-prime"&gt;&lt;/i&gt;</code></td>
+            </tr>
+            <tr>
+                <td><i class="tc badge-turbo tc-lg"></i></td>
+                <td>Twitch Turbo</td>
+                <td><code>&lt;i class="tc badge-turbo"&gt;&lt;/i&gt;</code></td>
+            </tr>
+        </table>
+    </div>
+    <div class="container text-left">
+        <h2 id="bits" class="text-primary">Twitch Bits</h2>
+        <table class="table table-dark">
+            <tr>
+                <th>Icon</th>
+                <th>Bit Value</th>
+                <th>Code</th>
+            </tr>
+            <tr>
+                <td><i class="tc bits-1 tc-lg"></i></td>
+                <td>1 bit</td>
+                <td><code>&lt;i class="tc bits-1"&gt;&lt;/i&gt;</code></td>
+            </tr>
+            <tr>
+                <td><i class="tc bits-100 tc-lg"></i></td>
+                <td>100 bits</td>
+                <td><code>&lt;i class="tc bits-100"&gt;&lt;/i&gt;</code></td>
+            </tr>
+            <tr>
+                <td><i class="tc bits-1000 tc-lg"></i></td>
+                <td>1,000 bits</td>
+                <td><code>&lt;i class="tc bits-1000"&gt;&lt;/i&gt;</code></td>
+            </tr>
+            <tr>
+                <td><i class="tc bits-5000 tc-lg"></i></td>
+                <td>5,000 bits</td>
+                <td><code>&lt;i class="tc bits-5000"&gt;&lt;/i&gt;</code></td>
+            </tr>
+            <tr>
+                <td><i class="tc bits-10000 tc-lg"></i></td>
+                <td>10,000 bits</td>
+                <td><code>&lt;i class="tc bits-10000"&gt;&lt;/i&gt;</code></td>
+            </tr>
+            <tr>
+                <td><i class="tc bits-100000 tc-lg"></i></td>
+                <td>100,000 bits</td>
+                <td><code>&lt;i class="tc bits-100000"&gt;&lt;/i&gt;</code></td>
+            </tr>
+        </table>
+    </div>
+    </div>
+    <div class="container text-left">
+        <h2 id="sizing" class="text-primary">Sizing</h2>
+        <table class="table table-dark">
+            <tr>
+                <th>Icon</th>
+                <th>Size</th>
+                <th>Code</th>
+            </tr>
+            <tr>
+                <td><i class="tc badge-caster"></i></td>
+                <td>Default</td>
+                <td><code>&lt;i class="tc badge-caster"&gt;&lt;/i&gt;</code></td>
+            </tr>
+            <tr>
+                <td><i class="tc badge-caster tc-lg"></i></td>
+                <td>Large</td>
+                <td><code>&lt;i class="tc badge-caster tc-lg"&gt;&lt;/i&gt;</code></td>
+            </tr>
+            <tr>
+                <td><i class="tc badge-caster tc-2x"></i></td>
+                <td>2x</td>
+                <td><code>&lt;i class="tc badge-caster tc-2x"&gt;&lt;/i&gt;</code></td>
+            </tr>
+            <tr>
+                <td><i class="tc badge-caster tc-3x"></i></td>
+                <td>3x</td>
+                <td><code>&lt;i class="tc badge-caster tc-3x"&gt;&lt;/i&gt;</code></td>
+            </tr>
+            <tr>
+                <td><i class="tc badge-caster tc-4x"></i></td>
+                <td>4x</td>
+                <td><code>&lt;i class="tc badge-caster tc-4x"&gt;&lt;/i&gt;</code></td>
+            </tr>
+            <tr>
+                <td><i class="tc badge-caster tc-5x"></i></td>
+                <td>5x</td>
+                <td><code>&lt;i class="tc badge-caster tc-5x"&gt;&lt;/i&gt;</code></td>
+            </tr>
+        </table>
+    </div>
+    <p class="text-muted">
+        Code &copy; 2020, Vysum Team
+        <br>
+        Twitch &copy; 2020, Twitch Interactive
+    </p>
+</body>
+</html>
