@@ -110,3 +110,23 @@ i.tc.badge-prime {
 i.tc.badge-turbo {
     background-image: url(https://vysum.github.io/twitchcons/icons/badge-turbo.png);
 }
+
+/* Bits */
+i.tc.bits-1 {
+    background-image: url(https://vysum.github.io/twitchcons/icons/bits-1.gif);
+}
+i.tc.bits-100 {
+    background-image: url(https://vysum.github.io/twitchcons/icons/bits-100.gif);
+}
+i.tc.bits-1000 {
+    background-image: url(https://vysum.github.io/twitchcons/icons/bits-1000.gif);
+}
+i.tc.bits-5000 {
+    background-image: url(https://vysum.github.io/twitchcons/icons/bits-5000.gif);
+}
+i.tc.bits-10000 {
+    background-image: url(https://vysum.github.io/twitchcons/icons/bits-10000.gif);
+}
+i.tc.bits-100000 {
+    background-image: url(https://vysum.github.io/twitchcons/icons/bits-100000.gif);
+}
