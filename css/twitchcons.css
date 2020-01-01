@@ -42,3 +42,30 @@ i.tc {
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
 }
+i.tc.badge-staff {
+    background-image: url(https://vysum.github.io/twitchcons/icons/badge-staff.png);
+}
+i.tc.badge-admin {
+    background-image: url(https://vysum.github.io/twitchcons/icons/badge-admin.png);
+}
+i.tc.badge-caster {
+    background-image: url(https://vysum.github.io/twitchcons/icons/badge-caster.png);
+}
+i.tc.badge-mod {
+    background-image: url(https://vysum.github.io/twitchcons/icons/badge-mod.png);
+}
+i.tc.badge-verified {
+    background-image: url(https://vysum.github.io/twitchcons/icons/badge-verified.png);
+}
+i.tc.badge-vip {
+    background-image: url(https://vysum.github.io/twitchcons/icons/badge-vip.png);
+}
+i.tc.badge-sub {
+    background-image: url(https://vysum.github.io/twitchcons/icons/badge-sub.png);
+}
+i.tc.badge-prime {
+    background-image: url(https://vysum.github.io/twitchcons/icons/badge-prime.png);
+}
+i.tc.badge-turbo {
+    background-image: url(https://vysum.github.io/twitchcons/icons/badge-turbo.png);
+}
