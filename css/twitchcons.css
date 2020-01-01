@@ -30,6 +30,8 @@ CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY,
 OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE
 OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 */
+
+/* Core Element */
 i.tc {
     display: inline-block;
     background-size: 1em 1em;
@@ -42,6 +44,17 @@ i.tc {
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
 }
+
+/* Size Adjustments */
+.tc-lg {
+    height: 1.33em !important;
+    width: 1.33em !important;
+    margin: 0 0.0665em 0 0.133em !important;
+    vertical-align: -0.133em !important;
+    background-size: auto 1.33em !important;
+}
+
+/* Main Chat Badges*/
 i.tc.badge-staff {
     background-image: url(https://vysum.github.io/twitchcons/icons/badge-staff.png);
 }
